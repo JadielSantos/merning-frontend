@@ -16,11 +16,12 @@ const App = () => {
         <Routes>
           <Route path="/">
             <Route index element={<Home />} />
-            <Route path="users" element={<Users />}>
-              <Route path=":userId/places" element={<UserPlaces />} />
+            <Route path="users" exact>
+              <Route index element={<Users />} />
               {/* <Route path="new" element={<NewTeamForm />} /> */}
               {/* <Route index element={<LeagueStandings />} /> */}
             </Route>
+            <Route path=":userId/places" element={<UserPlaces />} />
             <Route path="places">
               <Route path="new" element={<NewPlace />} />
             </Route>
