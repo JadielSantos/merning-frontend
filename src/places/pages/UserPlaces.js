@@ -20,7 +20,7 @@ const PLACES = [
     description:
       "The Statue of Liberty is a colossal neoclassical sculpture on Liberty Island in New York Harbor in the United States.",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Statue_of_Liberty_from_Empire_State_Building.jpg/640px-Statue_of_Liberty_from_Empire_State_Building.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Statue_of_Liberty%2C_NY.jpg/640px-Statue_of_Liberty%2C_NY.jpg",
     address: "1 Liberty Island, New York, NY 10007",
     location: { lat: 40.748465, lng: -74.0059413 },
     creator: "u2",
@@ -31,7 +31,7 @@ const PLACES = [
     description:
       "The Eiffel Tower is a wrought iron lattice tower on the Champ de Mars in Paris, France.",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Eiffel_Tower_with_aerial_view_of_the_Fontaine_d'Eau..jpg/640px-Eiffel_Tower_with_aerial_view_of_the_Fontaine_d'Eau..jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Eiffel_tower_from_trocadero.jpg/640px-Eiffel_tower_from_trocadero.jpg",
     address: "5 Avenue Anatole, 75007 Paris, France",
     location: { lat: 48.8583701, lng: 2.2944813 },
     creator: "u3",
@@ -42,7 +42,7 @@ const PLACES = [
     description:
       "The Louvre is the world's largest museum and a historic site of art, design and architecture, with 1.2 million works spanning more than 160,000 years.",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/The_Louvre_At_Night.jpg/640px-The_Louvre_At_Night.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Louvre_Museum_Wikimedia_Commons.jpg/640px-Louvre_Museum_Wikimedia_Commons.jpg",
     address: "Louvre, Paris, France",
     location: { lat: 48.8606372, lng: 2.3373463 },
     creator: "u4",
@@ -52,10 +52,10 @@ const PLACES = [
     title: "Tate Modern",
     description: "Tate Modern is a museum of modern art in London, England.",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Tate_Modern_London_%28cropped%29.jpg/640px-Tate_Modern_London_%28cropped%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Tate_modern_London.jpg/640px-Tate_modern_London.jpg",
     address: "1 Picadilly, London, England",
     location: { lat: 51.5019042, lng: -0.1278981 },
-    creator: "u5",
+    creator: "u3",
   },
   {
     id: "p6",
@@ -63,10 +63,10 @@ const PLACES = [
     description:
       "The British Museum is a museum in London, England, whose mission is to preserve and interpret the history of the British people.",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/British_Museum_in_London.jpg/640px-British_Museum_in_London.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/British_Museum_from_NE_2.JPG/640px-British_Museum_from_NE_2.JPG",
     address: "Museum of London, London, England",
     location: { lat: 51.5019042, lng: -0.1278981 },
-    creator: "u6",
+    creator: "u1",
   },
 ];
 
