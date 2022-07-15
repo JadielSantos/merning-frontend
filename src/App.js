@@ -6,6 +6,7 @@ import NotFound from "./shared/pages/NotFound";
 import NewPlace from "./places/pages/NewPlace";
 import UserPlaces from "./places/pages/UserPlaces";
 import MainNavigation from "./shared/components/Navigation/MainNavigation";
+import UpdatePlace from "./places/pages/UpdatePalce";
 import "./App.css";
 
 const App = () => {
@@ -18,12 +19,11 @@ const App = () => {
             <Route index element={<Home />} />
             <Route path="users" exact>
               <Route index element={<Users />} />
-              {/* <Route path="new" element={<NewTeamForm />} /> */}
-              {/* <Route index element={<LeagueStandings />} /> */}
             </Route>
             <Route path=":userId/places" element={<UserPlaces />} />
             <Route path="places">
               <Route path="new" element={<NewPlace />} />
+              <Route path=":placeId" element={<UpdatePlace />} />
             </Route>
             <Route path="*" element={<NotFound />} />
           </Route>
