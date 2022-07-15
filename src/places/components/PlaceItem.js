@@ -3,6 +3,7 @@ import Button from "../../shared/components/FormElements/Button";
 
 import Card from "../../shared/components/UIElements/Card";
 import Modal from "../../shared/components/UIElements/Modal";
+import Map from "../../shared/components/UIElements/Map";
 import "./PlaceItem.css";
 
 const PlaceItem = (props) => {
@@ -23,7 +24,7 @@ const PlaceItem = (props) => {
         footer={<Button onClick={closeMapHandler}>Close</Button>}
       >
         <div className="place-item__map-container">
-          <h2 className="place-item__map">The Map!</h2>
+          <Map center={props.place.location} zoom={16} />
         </div>
       </Modal>
       <li className="place-item">
@@ -37,7 +38,9 @@ const PlaceItem = (props) => {
             <p>{props.place.description}</p>
           </div>
           <div className="place-item__actions">
-            <Button inverse onClick={openMapHandler}>View on Map</Button>
+            <Button inverse onClick={openMapHandler}>
+              View on Map
+            </Button>
             <Button to={`/places/${props.id}`}>Edit</Button>
             <Button danger>Delete</Button>
           </div>
