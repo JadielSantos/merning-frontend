@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
+import Auth from "./user/pages/Auth";
 import Home from "./shared/pages/Home";
 import Users from "./user/pages/Users";
 import NotFound from "./shared/pages/NotFound";
@@ -25,6 +26,7 @@ const App = () => {
               <Route path="new" element={<NewPlace />} />
               <Route path=":placeId" element={<UpdatePlace />} />
             </Route>
+            <Route path="/auth" element={<Auth />} />
             <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>
